@@ -12,14 +12,14 @@ const {title, description, url, tags} = Astro.props;
 <div class="col-md-12 rounded-3">
     <figure class="figure w-100 h-100">
         <div class="figure-img ratio ratio-16x9 rounded-3">
-            <div class="z-3 w-100 h-100 p-4 d-flex align-items-end justify-content-between">
+            <div class="ilutration-header z-3 w-100 h-100 p-4 d-flex align-items-end justify-content-between">
                 <div class="text-white">
                     <h2 class="fs-5 mb-1 fw-medium">{title}</h2>
                     <p>{description}</p>
                 </div>
                 <i class="bi bi-arrow-right-short text-white fs-1"></i>
             </div>
-            <div class="bg-dark bg-opacity-50 rounded-3 w-100 h-100 z-2"></div>
+            <div class="ilustration-bg bg-dark bg-opacity-50 rounded-3 w-100 h-100 z-2"></div>
             <img src={url} alt="" class="img-fluid ilustración-art rounded-3" loading="lazy">
         </div>
         <figcaption class="figure-caption d-flex flex-wrap gap-1 align-items-center">
